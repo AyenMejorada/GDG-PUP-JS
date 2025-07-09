@@ -59,3 +59,17 @@ console.log(typeof city); // "string"
 console.log(typeof temperature); // "number"
 console.log(typeof hasPets); // "boolean"
 console.log(typeof colors); // "object"
+
+// trying reassignment for let, const, and var
+let temp1 = "Hi?";
+temp1 = "Hello.";
+
+const temp2 = "Hello!";
+temp2; // it will produce error if we reassigned it
+
+var temp3 = "Are you ok?";
+temp3 = "How are you?"
+
+console.log(temp1);
+console.log(temp2);
+console.log(temp3);
