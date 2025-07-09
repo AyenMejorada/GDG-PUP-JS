@@ -3,6 +3,7 @@ This assignment show that you cannot access every variable. If it is inside a fu
 
 Moreover, when you are declaring a variable that is outside a function or a block, it is called a global variable, which you can access both inside and outside a block.
 
+---
 
 Notes/instructions by Kuya David Bato:
 # Functions and Scope Tutorial
