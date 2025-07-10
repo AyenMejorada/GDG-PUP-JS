@@ -1,5 +1,6 @@
 My notes:
 I learned for loop and while loop of JavaScript in this assignment, since I know about C language, it made it easier to do this assignment. ^___^
+
 ---
 
 Notes/instructions by kuya David Bato:
