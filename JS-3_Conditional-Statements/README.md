@@ -1,4 +1,5 @@
-
+My Notes:
+This assignment is about testing if-else statement in JavaScript, and also tests your logic skills to create validations to ensure that the user won't enter an invalid number, for the input field (the scrolling/start number), I already set the minimum number to 0 so that the user won't be able to try a negative number. However if the user typed manually, the program would still validate it (will input "Invalid age. Please enter a valid number.").
 
 ---
 
