@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS-3</title>
+
+
+  <!-- Poppins Font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Checker</h1>
+        <p>Enter your age to find out your category:</p>
+        <!--having slash '/' at the end of the element means it is a self closing tag because if we type <input></input>, the program will exxpect that there would be a content inside <input>-->
+        <input min="0" type="number" id="ageInput" placeholder="Enter your age" />
+        <!--calling javascript function-->
+        <button onclick="checkAge()">Check Age Category</button>
+        <p id="result"><i>Age Category will appear here</i></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
