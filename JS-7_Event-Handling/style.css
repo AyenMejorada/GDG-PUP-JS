@@ -1,0 +1,49 @@
+/* base background and layout */
+body {
+  background-color: #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+.content {
+  background-color: #f8a5c2;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 
+    20px 20px 60px #d48eaa,
+    -20px -20px 60px #ffc0d9;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #f8a5c2;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 
+    8px 8px 16px #d48eaa,
+    -8px -8px 16px #ffc0d9;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 
+    inset 4px 4px 8px #d48eaa,
+    inset -4px -4px 8px #ffc0d9;
+}
