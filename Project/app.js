@@ -6,7 +6,7 @@ let userChoiceDisplay = document.querySelector('#userChoice');
 let computerChoiceDisplay = document.querySelector('#computerChoice');
 let resultDisplay = document.querySelector('#result');
 let winsDisplay = document.querySelector('#wins');
-let lossesDisplay = document.querySelector('#losses'); 2
+let lossesDisplay = document.querySelector('#losses');
 let tiesDisplay = document.querySelector('#ties');
 
 // initializing the variables for the state of the game
